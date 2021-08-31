@@ -1,5 +1,4 @@
-console.log('node-app2  123')
+console.log('This is node-app-2')
 
-// export function f() {   // <--- oops
-export const f = ():void => {   // <--- fixed
-}
+import {someString} from './bar/index'
+console.log('someString', someString)
