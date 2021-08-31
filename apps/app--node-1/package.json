@@ -10,19 +10,21 @@
   "license": "ISC",
   "devDependencies": {
     "@rushstack/eslint-config": "^2.4.0",
-    "@rushstack/heft": "^0.36.2",
+    "@rushstack/heft": "0.37.0",
     "@rushstack/heft-jest-plugin": "^0.1.19",
     "@types/heft-jest": "1.0.2",
     "@types/node": "16.6.1",
     "eslint": "^7.32.0",
-    "typescript": "~4.3.5"
+    "typescript": "~4.3.5",
+    "nodemon": "~2.0.12"
   },
   "dependencies": {
     "@myscope/util--foo-1": "workspace:*"
   },
   "scripts": {
     "build": "heft build --clean",
-    "build:watch": "heft build --clean --watch",
-    "start": "node dist/start.js"
+    "clean": "heft clean",
+    "build:watch": "heft build",
+    "start": "nodemon --watch dist --exec node dist/start.js"
   }
 }
