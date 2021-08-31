@@ -466,6 +466,10 @@
       "projectFolder": "utils/util--foo-1",
     },
     {
+      "packageName": "@myscope/app--node-2",
+      "projectFolder": "apps/app--node-2",
+    },
+    {
       "packageName": "@myscope/app--node-1",
       "projectFolder": "apps/app--node-1",
     }
