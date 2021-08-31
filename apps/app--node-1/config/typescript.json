@@ -51,7 +51,7 @@
    *
    * The default value is "lib".
    */
-  // "emitFolderNameForTests": "lib-commonjs",
+  "emitFolderNameForTests": "dist",
 
   /**
    * If set to "true", the TSlint task will not be invoked.
