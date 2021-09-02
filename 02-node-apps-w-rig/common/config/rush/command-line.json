@@ -28,7 +28,7 @@
       "commandKind": "bulk",
       "name": "clean",
       "summary": "[CUSTOM] remove compile outpu folder",
-      "description": "xxx",
+      "description": "No description",
       "safeForSimultaneousRushProcesses": false,
       "enableParallelism": true,
       "ignoreDependencyOrder": true,
@@ -36,6 +36,19 @@
       "allowWarningsInSuccessfulBuild": true,
       "incremental": false,
       "watchForChanges": false,
+    },
+    {
+      "commandKind": "bulk",
+      "name": "test",
+      "summary": "[CUSTOM] watch change and run test",
+      "description": "No description",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true,
+      "watchForChanges": true,
     },
     // {
     //   /**
