@@ -12,6 +12,7 @@
    */
   // "project": "non-exist.json",
   "project": "tsconfig.heft.json",
+  // "project": "tsconfig.json",
 
   /**
    * Optionally specifies another JSON config file that this file extends from. This provides a way for standard

@@ -1,3 +1,15 @@
 {
-  "extends": "./tsconfig.heft.json"
+  "extends": "./tsconfig.heft.json",
+  // "extends": "./node_modules/@myscope/my-toolchain/includes/tsconfig-web.json",
+
+  "compilerOptions": {
+    "types": [
+  //    "jest"
+    ]
+  },
+
+  // "include": [
+  //   "./src",
+  //   ".eslintrc.js"
+  // ]
 }
