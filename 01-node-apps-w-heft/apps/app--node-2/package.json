@@ -25,6 +25,6 @@
     "build": "heft build --clean",
     "clean": "heft clean",
     "build:watch": "heft build",
-    "start": "nodemon --watch dist --exec node dist/start.js"
+    "start": "nodemon --watch dist/start.js --exec node dist/start.js"
   }
 }
