@@ -472,6 +472,10 @@
     {
       "packageName": "@myscope/app--node-1",
       "projectFolder": "apps/app--node-1",
+    },
+    {
+      "packageName": "@myscope/heft-node-rig",
+      "projectFolder": "tools/heft-node-rig",
     }
   ]
 }
