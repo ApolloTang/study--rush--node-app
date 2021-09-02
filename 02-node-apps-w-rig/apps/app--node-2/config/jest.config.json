@@ -1,11 +1,3 @@
 {
-  // "preset": "./node_modules/@rushstack/heft/includes/jest-shared.config.json"
-
-  /*
-    'extends' field is a custom field for heft.
-    see breaking change: the introduction of "extends" field.
-    https://github.com/microsoft/rushstack/blob/master/apps/heft/UPGRADING.md#heft-0320
-  */
-
-  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json"
- }
+  "extends": "@rushstack/heft-node-rig/profiles/default/config/jest.config.json"
+}
