@@ -18,6 +18,8 @@
     "build": "heft build --clean",
     "clean": "heft clean",
     "build:watch": "heft build",
-    "start": "node dist/start.js"
+    "start": "node dist/start.js",
+    "test": "heft test",
+    "test:watch": "heft test --watch"
   }
 }
