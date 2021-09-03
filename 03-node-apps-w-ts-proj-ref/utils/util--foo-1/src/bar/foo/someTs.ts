@@ -1,0 +1,3 @@
+export = {
+  "someVar": "someVar"
+}
