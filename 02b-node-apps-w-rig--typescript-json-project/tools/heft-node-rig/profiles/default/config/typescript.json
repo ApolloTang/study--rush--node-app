@@ -4,6 +4,17 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/heft/typescript.schema.json",
 
+
+   /*
+   Using the "project" option in typescript.json introduced in
+   #2844, you can set it to a non-existent file and that will disable the plugin execution.
+
+   see: https://github.com/microsoft/rushstack/issues/2515#issuecomment-895595382
+   */
+  // "project": "non-exist.json",
+  "project": "tsconfig.heft.json",
+
+
   /**
    * If provided, emit these module kinds in addition to the modules specified in the tsconfig.
    * Note that this option only applies to the main tsconfig.json configuration.
