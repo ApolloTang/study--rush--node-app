@@ -49,7 +49,8 @@
      * File extensions that should be copied from the src folder to the destination folder(s).
      */
     "fileExtensions": [
-      ".json", ".css", ".png"
+      // ".json",  // no need to copy .json because json has been included in tsconfig.json (required for project reference)
+      ".css", ".png"
     ],
     /**
      * Glob patterns that should be explicitly included.
@@ -62,6 +63,7 @@
      * in "includeGlobs" and files that match the file extensions provided in "fileExtensions".
      */
     "excludeGlobs": [
+      // Note that ".json" will still get included because it is specified in tsconfig.json (required for project reference)
       "more-assets/exclude-me/**/*.*"
     ]
   }
