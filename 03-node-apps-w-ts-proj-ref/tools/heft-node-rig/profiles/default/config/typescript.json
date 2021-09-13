@@ -48,21 +48,21 @@
     /**
      * File extensions that should be copied from the src folder to the destination folder(s).
      */
-    // "fileExtensions": [".json"]
-
+    "fileExtensions": [
+      ".json", ".css", ".png"
+    ],
     /**
      * Glob patterns that should be explicitly included.
      */
-    // "includeGlobs": [
-    //   "some/path/*.js"
-    // ],
-
+    "includeGlobs": [
+      "more-assets/include-me/"
+    ],
     /**
      * Glob patterns that should be explicitly excluded. This takes precedence over globs listed
      * in "includeGlobs" and files that match the file extensions provided in "fileExtensions".
      */
-    // "excludeGlobs": [
-    //   "some/path/*.css"
-    // ]
+    "excludeGlobs": [
+      "more-assets/exclude-me/**/*.*"
+    ]
   }
 }
