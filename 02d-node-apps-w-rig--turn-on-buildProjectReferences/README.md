@@ -15,4 +15,4 @@ In this experiment, as suggested, I attempted setting the flag:
 But typescript still not running.
 
 see: 
-https://github.com/microsoft/rushstack/issues/2908
+[https://github.com/microsoft/rushstack/issues/2908](https://github.com/microsoft/rushstack/issues/2908)
